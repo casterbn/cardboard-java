@@ -17,4 +17,5 @@ Inspiration from [raasun's cardboard](https://github.com/raasun/cardboard) (deco
 Cardboard是谷歌在2014年发布的VR盒子，虽然它不是开源的，但是在GitHub上有很多Cardboard的反编译工程，比如https://github.com/rsanchezsaez/cardboard-java。Cardboard的VR体验，可以在一定程度上，证明它的九轴融合算法是满足VR要求的。所以，我对Cardboard反编译工程中的九轴融合部分的程序进行了研读，这部分的程序大概有5000行左右。我在通读完程序之后，结合文献[1],把程序背后的算法理论公式全部都反推出来，总结成了本文，与各位分享。
 虽然早在2014年，Cardboard就已经在GitHub上被反编译了，但是这么多年过去了，有关它的代码原理分析的文章却是几乎没有。能结合源代码，把它背后的算法理论基础详细推导出来的，本文应该算是第一篇。如有推导错误的地方，还请各位不吝赐教。
 本文目标读者：传感器融合算法工程师。
+引用自：
 https://www.cnblogs.com/ilekoaiq/p/8710812.html
